@@ -1,3 +1,4 @@
+package exercises_simple;
 //import javax.sound.sampled.SourceDataLine;
 
 import java.util.*;

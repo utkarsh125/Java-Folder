@@ -1,3 +1,4 @@
+package Patterns;
 import java.util.Scanner;
 
 // Should look something like this:

@@ -1,3 +1,4 @@
+package Patterns;
 public class Rhombus {
    public static void main(String[] args) {
     int n=5;

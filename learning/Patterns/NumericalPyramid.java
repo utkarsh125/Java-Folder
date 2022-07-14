@@ -1,3 +1,4 @@
+package Patterns;
 import java.util.Scanner;
 
 // To print the pyramid like this: 

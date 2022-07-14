@@ -1,3 +1,4 @@
+package exercises_simple;
 public class loops {
     public static void main(String[] args) {
         //for(int a = 0; a<3; a++ ){

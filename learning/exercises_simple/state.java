@@ -1,3 +1,4 @@
+package exercises_simple;
 
 import java.util.*;
 
