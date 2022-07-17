@@ -20,7 +20,7 @@ public class Car {
         }else{
             this.model = "Unknown";
         }
-        //type keyword 'this' to refer to that class
+        //type keyword 'this' to refer to that class             
         //this.model = model;//update 'this' model
     }
     //getVAR_NAME
