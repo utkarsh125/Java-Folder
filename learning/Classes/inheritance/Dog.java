@@ -20,5 +20,10 @@ public class Dog extends Animal{
 
         
     }
+    private void chew(){
+        System.out.println("Dog.chew() Called.");
+    }
+
     
+
 }
