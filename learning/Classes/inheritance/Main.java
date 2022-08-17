@@ -23,7 +23,7 @@ public class Main {
     //dog.run();
 
     Fish fish = new Fish("Nemo", 5, 20, 2, 2, 1);
-    fish.swim(15);
+    //fish.swim(15);
 
 
     }

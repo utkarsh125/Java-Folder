@@ -1,4 +1,4 @@
-package Patterns;
+//package Patterns;
 // Should look something like this:
 
 // 1
