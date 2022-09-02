@@ -9,9 +9,7 @@ public class Main{
         Motherboard theMotherboard = new Motherboard("X370","Asus", 4, 6, "11X");
 
         PC thePC = new PC(theCase, theMonitor, theMotherboard);
-        thePC.getMonitor().drawPixelAt(1500, 1200,"red");
-        thePC.getMotherboard().loadProgram("Windows 10");
-        thePC.getTheCase().pressPowerButton();
+        thePC.powerUp();
 
     }
 }
