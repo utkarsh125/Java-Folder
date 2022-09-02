@@ -1,9 +1,6 @@
-/**
- *
- */
+package com.utkarsh;
 
-public class Motherboard{
-
+public class Motherboard {
     private String model;
     private String manufacturer;
     private int ramSlots;
@@ -18,8 +15,9 @@ public class Motherboard{
         this.bios = bios;
     }
 
-    public void loadProgram (String programName){
-        System.out.println("Program " + programName + " is now loading");
+
+    public void loadProgram(String programName){
+        System.out.println("Program " + programName + " is now loading...");
     }
 
     public String getModel() {

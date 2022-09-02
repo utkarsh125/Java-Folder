@@ -1,8 +1,6 @@
-/**
- *
- */
+package com.utkarsh;
 
-public class Resolution{
+public class Resolution {
     private int width;
     private int height;
 

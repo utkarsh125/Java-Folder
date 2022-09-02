@@ -1,8 +1,7 @@
-/**
- *
- */
+package com.utkarsh;
 
-public class Case{
+public class Case {
+
     private String model;
     private String manufacturer;
     private String powerSupply;
@@ -16,8 +15,7 @@ public class Case{
     }
 
     public void pressPowerButton(){
-        System.out.println("Power button pressed");
-
+        System.out.println("Power Button Pressed");
     }
 
     public String getModel() {

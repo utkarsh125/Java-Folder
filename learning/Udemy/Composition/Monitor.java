@@ -1,23 +1,20 @@
-/**
- *
- */
+package com.utkarsh;
 
-public class Monitor{
-
+public class Monitor {
     private String model;
     private String manufacturer;
     private int size;
-    private Resolution nativeResolutons;
+    private Resolution nativeResolution;
 
-    public Monitor(String model, String manufacturer, int size, Resolution nativeResolutons) {
+    public Monitor(String model, String manufacturer, int size, Resolution nativeResolution) {
         this.model = model;
         this.manufacturer = manufacturer;
         this.size = size;
-        this.nativeResolutons = nativeResolutons;
+        this.nativeResolution = nativeResolution;
     }
-    public void drawPixelAt(int x, int y, String color){
-        System.out.println("Drawing pixel at "+x+","+y+" in color"+color);
 
+    public void drawPixelAt(int x, int y, String color){
+        System.out.println("Drawing Pixel at " + x+ ","+y+" in color "+color);
     }
 
     public String getModel() {
@@ -32,7 +29,7 @@ public class Monitor{
         return size;
     }
 
-    public Resolution getNativeResolutons() {
-        return nativeResolutons;
+    public Resolution getNativeResolution() {
+        return nativeResolution;
     }
 }

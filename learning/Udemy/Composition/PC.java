@@ -1,8 +1,6 @@
-/**
- *
- */
+package com.utkarsh;
 
-public class PC{
+public class PC {
     private Case theCase;
     private Monitor monitor;
     private Motherboard motherboard;
@@ -14,15 +12,13 @@ public class PC{
     }
 
     public void powerUp(){
-        theCase.pressPowerButton();
+        getTheCase().pressPowerButton();
         drawLogo();
-
     }
 
     private void drawLogo(){
-        //Fancy graphics
-        monitor().drawPixelAt(1200,50,"Yellow");
-
+        //FANCY GRAPHICS
+        monitor.drawPixelAt(1200,50,"yellow");
     }
     private Case getTheCase() {
         return theCase;
